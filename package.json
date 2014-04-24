@@ -1,0 +1,40 @@
+{
+  "name": "tedit-compiler",
+  "version": "0.0.0",
+  "description": "A command-line utility that implements the tedit build system in node.",
+  "main": "watch.js",
+  "dependencies": {
+    "bodec": "~0.0.1",
+    "carallel": "~0.0.0",
+    "git-sha1": "~0.1.1",
+    "git-tree": "~0.0.0",
+    "jon-parse": "~0.0.0",
+    "js-git": "~0.7.0",
+    "js-github": "~0.2.0",
+    "pako": "~0.2.0",
+    "pathjoin": "~0.0.0",
+    "gen-run": "~0.1.1"
+  },
+  "bin": {
+    "tedit-watch": "watch.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/creationix/tedit-compiler.git"
+  },
+  "keywords": [
+    "js-git",
+    "tedit",
+    "build"
+  ],
+  "author": "Tim Caswell <tim@creationix.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/creationix/tedit-compiler/issues"
+  },
+  "homepage": "https://github.com/creationix/tedit-compiler"
+}

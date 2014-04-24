@@ -25,3 +25,6 @@
 [submodule "node_modules/pako"]
 	path = node_modules/pako
 	url = git@github.com:nodeca/pako.git
+[submodule "node_modules/gen-run"]
+	path = node_modules/gen-run
+	url = git@github.com:creationix/gen-run.git
