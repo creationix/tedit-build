@@ -1,0 +1,27 @@
+[submodule "node_modules/git-tree"]
+	path = node_modules/git-tree
+	url = git@github.com:creationix/git-tree.git
+[submodule "node_modules/js-git"]
+	path = node_modules/js-git
+	url = git@github.com:creationix/js-git.git
+[submodule "node_modules/js-github"]
+	path = node_modules/js-github
+	url = git@github.com:creationix/js-github.git
+[submodule "node_modules/bodec"]
+	path = node_modules/bodec
+	url = git@github.com:creationix/bodec.git
+[submodule "node_modules/git-sha1"]
+	path = node_modules/git-sha1
+	url = git@github.com:creationix/git-sha1.git
+[submodule "node_modules/carallel"]
+	path = node_modules/carallel
+	url = git@github.com:creationix/carallel.git
+[submodule "node_modules/jon-parse"]
+	path = node_modules/jon-parse
+	url = git@github.com:creationix/jon-parse.git
+[submodule "node_modules/pathjoin"]
+	path = node_modules/pathjoin
+	url = git@github.com:creationix/pathjoin.git
+[submodule "node_modules/pako"]
+	path = node_modules/pako
+	url = git@github.com:nodeca/pako.git
