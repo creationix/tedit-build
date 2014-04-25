@@ -1,5 +1,5 @@
 {
-  "name": "tedit-compiler",
+  "name": "tedit-build",
   "version": "0.0.0",
   "description": "A command-line utility that implements the tedit build system in node.",
   "dependencies": {
