@@ -11,18 +11,15 @@ filesystem and uses node instead of chrome APIs.
 Currently the best way to install this tool is to clone it recursivly and then `npm link` from the new directory.
 
 ```sh
-git clone git@github.com:creationix/tedit-build.git
+# Do a recursive clone
+git clone git@github.com:creationix/tedit-build.git --recursive
 cd tedit-build
+# Install the `tedit-build` command globally
 npm link
+# Tweak the path in build.js to point to your node binary
 ```
 
 This will clone the tool and all it's dependencies using versions I know work.
-
-If you prefer, you could install using npm directly, but that will pull the bleeding edge versions of all deps which might not work.
-
-```sh
-npm install -g git://github.com/creationix/tedit-build.git
-```
 
 ## Usage Example
 
@@ -30,7 +27,9 @@ For example, this tool can be used to build tedit from git without already havin
 a copy of Tedit from the chrome store.
 
 ```sh
+# Do a recursive git clone
 git clone git@github.com:creationix/tedit-app.git --recursive
+# Build it using tedit-build
 tedit-build tedit-app out chrome-app filters
 ```
 
