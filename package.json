@@ -2,21 +2,21 @@
   "name": "tedit-compiler",
   "version": "0.0.0",
   "description": "A command-line utility that implements the tedit build system in node.",
-  "main": "watch.js",
   "dependencies": {
-    "bodec": "~0.0.1",
-    "carallel": "~0.0.0",
-    "git-sha1": "~0.1.1",
-    "git-tree": "~0.0.0",
-    "jon-parse": "~0.0.0",
-    "js-git": "~0.7.0",
-    "js-github": "~0.2.0",
-    "pako": "~0.2.0",
-    "pathjoin": "~0.0.0",
-    "gen-run": "~0.1.1"
+    "bodec": "git://github.com/creationix/bodec.git",
+    "carallel": "git://github.com/creationix/carallel.git",
+    "git-sha1": "git://github.com/creationix/git-sha1.git",
+    "git-tree": "git://github.com/creationix/git-tree.git",
+    "jon-parse": "git://github.com/creationix/jon-parse.git",
+    "js-git": "git://github.com/creationix/js-git.git",
+    "js-github": "git://github.com/creationix/js-github.git",
+    "pako": "git://github.com/nodeca/pako.git",
+    "pathjoin": "git://github.com/creationix/pathjoin.git",
+    "gen-run": "git://github.com/creationix/gen-run.git",
+    "mine": "git://github.com/creationix/mine.git"
   },
   "bin": {
-    "tedit-watch": "watch.js"
+    "tedit-build": "build.js"
   },
   "devDependencies": {},
   "scripts": {
